@@ -9,5 +9,7 @@
 #include "ruby.h"
 
 void Init_myext() {
+    VALUE v1;
+    printf("%d\n",sizeof(v1));
     printf("Hello Ruby from C!\n");
 }
