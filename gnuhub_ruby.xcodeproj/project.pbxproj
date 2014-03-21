@@ -8,12 +8,14 @@
 
 /* Begin PBXFileReference section */
 		354AC96B18DC213E00E0C0A0 /* ruby-2.1.1 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "ruby-2.1.1"; path = "../../tmp/ruby-2.1.1"; sourceTree = "<group>"; };
+		354AC96C18DC23D200E0C0A0 /* extconf.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = extconf.rb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		354AC96018DC1FF900E0C0A0 = {
 			isa = PBXGroup;
 			children = (
+				354AC96C18DC23D200E0C0A0 /* extconf.rb */,
 				354AC96B18DC213E00E0C0A0 /* ruby-2.1.1 */,
 			);
 			sourceTree = "<group>";
