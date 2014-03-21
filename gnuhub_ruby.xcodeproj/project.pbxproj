@@ -32,7 +32,7 @@
 			buildPhases = (
 			);
 			buildToolPath = /usr/bin/make;
-			buildWorkingDirectory = "/Users/stallman/tmp/ruby-2.1.1";
+			buildWorkingDirectory = /Users/stallman/dev/gnuhub_ruby;
 			dependencies = (
 			);
 			name = gnuhub_ruby;

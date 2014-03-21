@@ -10,19 +10,10 @@
             ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
             <ActionContent
                title = "Run Script"
-               scriptText = "cd ~/tmp/ruby2.1.1&#10;./configure --prefix=${HOME}/tmp/ruby">
+               scriptText = "cd ~/dev/gnuhub_ruby&#10;/Users/stallman/tmp/ruby/bin/ruby extconf.rb&#10;">
             </ActionContent>
          </ExecutionAction>
       </PreActions>
-      <PostActions>
-         <ExecutionAction
-            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
-            <ActionContent
-               title = "Run Script"
-               scriptText = "cd ~/tmp/ruby2.1.1&#10;make install">
-            </ActionContent>
-         </ExecutionAction>
-      </PostActions>
       <BuildActionEntries>
          <BuildActionEntry
             buildForTesting = "YES"
@@ -62,7 +53,7 @@
       </PathRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "-v"
+            argument = "-I/Users/stallman/dev/gnuhub_ruby/ -e &quot;require &apos;myext&apos;&quot;"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
