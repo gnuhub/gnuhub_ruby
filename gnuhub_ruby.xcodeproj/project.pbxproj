@@ -6,10 +6,15 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		354AC96B18DC213E00E0C0A0 /* ruby-2.1.1 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "ruby-2.1.1"; path = "../../tmp/ruby-2.1.1"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		354AC96018DC1FF900E0C0A0 = {
 			isa = PBXGroup;
 			children = (
+				354AC96B18DC213E00E0C0A0 /* ruby-2.1.1 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -23,6 +28,7 @@
 			buildPhases = (
 			);
 			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/stallman/tmp/ruby-2.1.1";
 			dependencies = (
 			);
 			name = gnuhub_ruby;
