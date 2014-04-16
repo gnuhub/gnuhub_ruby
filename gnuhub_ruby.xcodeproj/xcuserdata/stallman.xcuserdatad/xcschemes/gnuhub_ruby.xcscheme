@@ -53,7 +53,7 @@
       </PathRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "-I/Users/stallman/dev/gnuhub_ruby/ -e &quot;require &apos;myext&apos;&quot;"
+            argument = "-I/Users/stallman/dev/gnuhub_ruby/ /Users/stallman/dev/gnuhub_ruby/test.rb"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>

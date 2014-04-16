@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		3528E8D418FE193600538405 /* test.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = test.rb; sourceTree = "<group>"; };
 		354AC96B18DC213E00E0C0A0 /* ruby-2.1.1 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "ruby-2.1.1"; path = "../../tmp/ruby-2.1.1"; sourceTree = "<group>"; };
 		354AC96C18DC23D200E0C0A0 /* extconf.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = extconf.rb; sourceTree = "<group>"; };
 		354AC96D18DC24B800E0C0A0 /* myext.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = myext.c; sourceTree = "<group>"; };
@@ -16,6 +17,7 @@
 		354AC96018DC1FF900E0C0A0 = {
 			isa = PBXGroup;
 			children = (
+				3528E8D418FE193600538405 /* test.rb */,
 				354AC96D18DC24B800E0C0A0 /* myext.c */,
 				354AC96C18DC23D200E0C0A0 /* extconf.rb */,
 				354AC96B18DC213E00E0C0A0 /* ruby-2.1.1 */,
@@ -175,6 +177,7 @@
 				354AC96A18DC1FF900E0C0A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
